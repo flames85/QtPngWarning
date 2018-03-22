@@ -26,14 +26,17 @@ protected slots:
     void onRun();
     void onTransformedPng(const QString &pngFileName, bool success);
 
+    void onFolderLineTextChanged(const QString &);
+
 private:
 
     void transformAllPngFiles(const QDir &dir);
+    void clearTransformResult();
 
 
 private:
-    Ui::MainWindow *ui;
-
+    Ui::MainWindow      *ui;
+    qint32              m_successNum;
 };
 
 #endif // MAINWINDOW_H
