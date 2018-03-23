@@ -9,50 +9,64 @@
         <translation type="unfinished">PNG警告消除</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="21"/>
-        <source>Target folder</source>
-        <translation type="unfinished">文件夹路径</translation>
-    </message>
-    <message>
-        <location filename="mainwindow.ui" line="28"/>
+        <location filename="mainwindow.ui" line="27"/>
         <source>Choose Folder</source>
         <translation type="unfinished">选择文件夹</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="35"/>
+        <location filename="mainwindow.ui" line="40"/>
         <source>Run</source>
         <translation type="unfinished">运行</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="29"/>
+        <location filename="mainwindow.cpp" line="33"/>
+        <source>Item</source>
+        <translation type="unfinished">项目</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="33"/>
+        <source>status</source>
+        <translation type="unfinished">状态</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="39"/>
+        <source>Absolute path of target directory</source>
+        <translation type="unfinished">目标绝对路径</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="51"/>
         <source>Choose folder</source>
         <translation type="unfinished">选择文件夹</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="37"/>
+        <location filename="mainwindow.cpp" line="68"/>
+        <source>OK</source>
+        <translation type="unfinished">成功</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="72"/>
+        <source>ERROR</source>
+        <translation type="unfinished">出错</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="83"/>
         <source>Warning</source>
         <translation type="unfinished">警告</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="37"/>
+        <location filename="mainwindow.cpp" line="83"/>
         <source>The folder you choose do not exist</source>
         <translation type="unfinished">您选择的文件夹不存在</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="50"/>
-        <source>%1 transforme ok</source>
-        <translation type="unfinished">%1 转换成功</translation>
+        <location filename="mainwindow.cpp" line="123"/>
+        <source>Total %1</source>
+        <translation type="unfinished">总共 %1 个</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="54"/>
-        <location filename="mainwindow.cpp" line="56"/>
+        <location filename="mainwindow.cpp" line="75"/>
         <source>Total transforme %1, success %2</source>
-        <translation type="unfinished">总转换数%1, 成功%2</translation>
-    </message>
-    <message>
-        <location filename="mainwindow.cpp" line="53"/>
-        <source>%1 transforme error</source>
-        <translation type="unfinished">%1 转换失败</translation>
+        <translation type="unfinished">总转换数 %1 个, 成功 %2 个</translation>
     </message>
 </context>
 </TS>

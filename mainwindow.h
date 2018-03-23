@@ -8,6 +8,8 @@ namespace Ui {
 class MainWindow;
 }
 
+class QTableWidgetItem;
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -18,21 +20,18 @@ public:
 
 signals:
 
-    void transformedPng(const QString &pngFileName, bool success);
-
 protected slots:
 
     void chooseFolderClicked();
     void onRun();
-    void onTransformedPng(const QString &pngFileName, bool success);
-
-    void onFolderLineTextChanged(const QString &);
+    void onAddressTextChanged(const QString &);
 
 private:
 
-    void transformAllPngFiles(const QDir &dir);
+    void trackAllPngFiles(const QDir &dir);
     void clearTransformResult();
 
+    QTableWidgetItem* createTableWidgetItem(const QString &text, int alignment, QIcon *icon = NULL);
 
 private:
     Ui::MainWindow      *ui;
